@@ -1,0 +1,63 @@
+<?xml version="1.0"?>
+<Container>
+  <Name>FileBrowser</Name>
+  <Repository>80x86/filebrowser</Repository>
+  <Registry>https://hub.docker.com/r/80x86/filebrowser</Registry>
+  <Network>host</Network>
+  <Privileged>false</Privileged>
+  <Support>https://github.com/qy9756/unraid</Support>
+  <Project>https://hub.docker.com/r/80x86/filebrowser</Project>
+  <Overview>filebrowser</Overview>
+  <Description>
+    
+  </Description>
+  <Category>Cloud: Network:Web Status:Stable</Category>
+  <WebUI>http://[IP]:[PORT:8083]</WebUI>
+  <Icon>https://github.com/maschhoff/docker/raw/master/filebrowser/35781395.png</Icon>
+  <ExtraParams>--mount type=tmpfs,destination=/tmp</ExtraParams>
+  <PostArgs></PostArgs>
+  <CPUset/>
+  <DateInstalled></DateInstalled>
+  <DonateText/>
+  <DonateLink/>
+  <Description></Description>
+  <Data>
+    <Volume>
+      <HostDir>/mnt/user/appdata/filebrowser</HostDir>
+      <ContainerDir>/config</ContainerDir>
+      <Mode>rw</Mode>
+    </Volume>
+    <Volume>
+      <HostDir>想管理的路径</HostDir>
+      <ContainerDir>/myfiles</ContainerDir>
+      <Mode>rw</Mode>
+    </Volume>
+  </Data>
+  <Environment>
+    <Variable>
+      <Value>0</Value>
+      <Name>PUID</Name>
+      <Mode/>
+    </Variable>
+    <Variable>
+      <Value>0</Value>
+      <Name>PGID</Name>
+      <Mode/>
+    </Variable>
+    <Variable>
+      <Value>on或off</Value>
+      <Name>SSL</Name>
+      <Mode/>
+    </Variable>
+    <Variable>
+      <Value>000</Value>
+      <Name>UMASK_SET</Name>
+      <Mode/>
+    </Variable>
+    <Variable>
+      <Value>8083</Value>
+      <Name>WEB_PORT</Name>
+      <Mode/>
+    </Variable>
+  </Environment>
+</Container>
