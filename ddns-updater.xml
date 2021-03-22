@@ -1,15 +1,15 @@
 <?xml version="1.0"?>
 <Container>
   <Name>ddns-updater</Name>
-  <Repository>80x86/ddns-updater:1.1.7-amd64</Repository>
+  <Repository>80x86/ddns-updater</Repository>
   <Registry>https://hub.docker.com/r/80x86/ddns-updater</Registry>
   <Network>host</Network>
   <Privileged>false</Privileged>
-  <Support>https://www.lxg2016.com/54300.html</Support>
+  <Support>https://github.com/qy9756/unraid</Support>
   <Project></Project>
   <Overview>ddns</Overview>
   <Description>
-    使用荒野无灯大神的ddns-updater镜像，具体使用教程可访问https://www.lxg2016.com/54300.html查看
+    
   </Description>
   <Category>Cloud: Network:Web Status:Stable</Category>
   <WebUI>http://[IP]:[PORT:8020]</WebUI>
