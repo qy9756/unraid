@@ -2,13 +2,13 @@
 <Container version="2">
   <Name>aliyun-ddns</Name>
   <Repository>sanjusss/aliyun-ddns</Repository>
-  <Registry/>
+  <Registry>https://hub.docker.com/r/sanjusss/aliyun-ddns</Registry>
   <Network>host</Network>
   <MyIP/>
   <Shell>sh</Shell>
   <Privileged>false</Privileged>
-  <Support/>
-  <Project/>
+  <Support>https://github.com/qy9756/unraid</Support>
+  <Project>https://hub.docker.com/r/sanjusss/aliyun-ddns</Project>
   <Overview/>
   <Category/>
   <WebUI/>
