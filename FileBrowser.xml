@@ -11,7 +11,7 @@
   <Description></Description>
   <Category>Cloud: Network:Web Status:Stable</Category>
   <WebUI>http://[IP]:[PORT:8083]</WebUI>
-  <Icon>https://github.com/maschhoff/docker/raw/master/filebrowser/35781395.png</Icon>
+  <Icon>https://raw.githubusercontent.com/qy9756/unraid/master/filebrowser.png</Icon>
   <ExtraParams>--mount type=tmpfs,destination=/tmp</ExtraParams>
   <PostArgs></PostArgs>
   <CPUset/>
