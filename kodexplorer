@@ -4,10 +4,10 @@
 <Category>file:</Category>
   <Name>kodexplorer</Name>
   <Description>
-    可道云很好用的web管理,目录最好映射/mnt
+
   </Description>
   <Overview>kodexplorer</Overview>
-  <Support>https://www.lxg2016.com/53740.html</Support>
+  <Support>https://github.com/qy9756/unraid</Support>
   <Registry></Registry>
   <Repository>xaljer/kodexplorer</Repository>
   <BindTime>true</BindTime>
