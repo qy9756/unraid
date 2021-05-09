@@ -13,7 +13,7 @@
   <Category>Network:Web Network:Proxy</Category>
   <WebUI>http://[IP]:[PORT:80]/</WebUI>
   <TemplateURL>https://raw.githubusercontent.com/linuxserver/docker-templates/master/linuxserver.io/nginx.xml</TemplateURL>
-  <Icon>https://raw.githubusercontent.com/linuxserver/docker-templates/master/linuxserver.io/img/nginx-icon.png</Icon>
+  <Icon>https://raw.githubusercontent.com/qy9756/unraid/master/kodexplorer.png</Icon>
   <ExtraParams/>
   <PostArgs/>
   <CPUset/>
