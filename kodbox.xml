@@ -3,8 +3,8 @@
   <Name>kodbox</Name>
   <Repository>linuxserver/nginx</Repository>
   <Registry>https://hub.docker.com/r/linuxserver/nginx/</Registry>
-  <Network>br0</Network>
-  <MyIP>10.10.10.5</MyIP>
+  <Network>bridge</Network>
+  <MyIP>
   <Shell>sh</Shell>
   <Privileged>false</Privileged>
   <Support>https://forums.unraid.net/topic/42784-support-linuxserverio-nginx/</Support>
