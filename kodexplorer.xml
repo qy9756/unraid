@@ -61,10 +61,10 @@
     </Variable>
   </Environment>
   <Labels/>
-  <Config Name="Host Port 1" Target="80" Default="80" Mode="tcp" Description="Container Port: 80" Type="Port" Display="always" Required="true" Mask="false">9000</Config>
-  <Config Name="Host Port 2" Target="443" Default="443" Mode="tcp" Description="Container Port: 443" Type="Port" Display="always" Required="true" Mask="false">9001</Config>
+  <Config Name="Host Port 1" Target="80" Default="80" Mode="tcp" Description="Container Port: 80" Type="Port" Display="always" Required="true" Mask="false">80</Config>
+  <Config Name="Host Port 2" Target="443" Default="443" Mode="tcp" Description="Container Port: 443" Type="Port" Display="always" Required="true" Mask="false">443</Config>
   <Config Name="Key 1" Target="PUID" Default="99" Mode="" Description="Container Variable: PUID" Type="Variable" Display="always" Required="false" Mask="false">99</Config>
   <Config Name="Key 2" Target="PGID" Default="100" Mode="" Description="Container Variable: PGID" Type="Variable" Display="always" Required="false" Mask="false">100</Config>
-  <Config Name="Host Path 1" Target="/unraid" Default="" Mode="rw" Description="Container Path: /unraid" Type="Path" Display="always" Required="false" Mask="false">/mnt/user/</Config>
+  <Config Name="Host Path 1" Target="/unraid" Default="" Mode="rw" Description="&#x5BB9;&#x5668; Path: /unraid" Type="Path" Display="always" Required="false" Mask="false">/mnt/user/</Config>
   <Config Name="AppData Config Path" Target="/config" Default="/mnt/user/appdata/nginx" Mode="rw" Description="Container Path: /config" Type="Path" Display="advanced-hide" Required="true" Mask="false">/mnt/user/appdata/kodexplorer</Config>
 </Container>
