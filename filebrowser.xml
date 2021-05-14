@@ -26,25 +26,25 @@
       <Mode>rw</Mode>
     </Volume>
     <Volume>
-      <HostDir>想管理的路径</HostDir>
+      <HostDir>管理路径</HostDir>
       <ContainerDir>/myfiles</ContainerDir>
       <Mode>rw</Mode>
     </Volume>
   </Data>
   <Environment>
     <Variable>
-      <Value>0</Value>
+      <Value>1000</Value>
       <Name>PUID</Name>
       <Mode/>
     </Variable>
     <Variable>
-      <Value>0</Value>
+      <Value>100</Value>
       <Name>PGID</Name>
       <Mode/>
     </Variable>
     <Variable>
       <Value>on或off</Value>
-      <Name>SSL</Name>
+      <Name>FB_SSL</Name>
       <Mode/>
     </Variable>
     <Variable>
