@@ -7,17 +7,16 @@
   <MyIP/>
   <Shell>sh</Shell>
   <Privileged>false</Privileged>
-  <Support>https://forums.unraid.net/topic/42784-support-linuxserverio-nginx/</Support>
-  <Project>https://www.nginx.com/</Project>
+  <Support>https://github.com/qy9756/unraid/</Support>
+  <Project>https://github.com/qy9756/unraid/</Project>
   <Overview/>
   <Category>Network:Web Network:Proxy</Category>
   <WebUI>http://[IP]:[PORT:9000]/</WebUI>
-  <TemplateURL>https://raw.githubusercontent.com/linuxserver/docker-templates/master/linuxserver.io/nginx.xml</TemplateURL>
   <Icon>https://raw.githubusercontent.com/qy9756/unraid/master/kodbox.png</Icon>
   <ExtraParams/>
   <PostArgs/>
   <CPUset/>
-  <DateInstalled>1620999422</DateInstalled>
+  <DateInstalled></DateInstalled>
   <DonateText/>
   <DonateLink/>
   <Description/>
