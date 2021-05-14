@@ -21,13 +21,13 @@
   <Description></Description>
   <Data>
     <Volume>
-      <HostDir>/mnt/user/appdata/filebrowser</HostDir>
-      <ContainerDir>/config</ContainerDir>
+      <HostDir>管理路径</HostDir>
+      <ContainerDir>/myfiles</ContainerDir>
       <Mode>rw</Mode>
     </Volume>
     <Volume>
-      <HostDir>管理路径</HostDir>
-      <ContainerDir>/myfiles</ContainerDir>
+      <HostDir>/mnt/user/appdata/filebrowser</HostDir>
+      <ContainerDir>/config</ContainerDir>
       <Mode>rw</Mode>
     </Volume>
   </Data>
