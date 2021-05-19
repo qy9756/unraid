@@ -19,18 +19,6 @@
   <DonateText/>
   <DonateLink/>
   <Description></Description>
-  <Data>
-    <Volume>
-      <HostDir>管理路径</HostDir>
-      <ContainerDir>/myfiles</ContainerDir>
-      <Mode>rw</Mode>
-    </Volume>
-    <Volume>
-      <HostDir>/mnt/user/appdata/filebrowser</HostDir>
-      <ContainerDir>/config</ContainerDir>
-      <Mode>rw</Mode>
-    </Volume>
-  </Data>
   <Environment>
     <Variable>
       <Value>99</Value>
@@ -58,4 +46,16 @@
       <Mode/>
     </Variable>
   </Environment>
+  <Data>
+    <Volume>
+      <HostDir>管理路径</HostDir>
+      <ContainerDir>/myfiles</ContainerDir>
+      <Mode>rw</Mode>
+    </Volume>
+    <Volume>
+      <HostDir>/mnt/user/appdata/filebrowser</HostDir>
+      <ContainerDir>/config</ContainerDir>
+      <Mode>rw</Mode>
+    </Volume>
+  </Data>
 </Container>
