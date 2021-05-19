@@ -10,7 +10,7 @@
   <Overview>filebrowser</Overview>
   <Description></Description>
   <Category>Cloud: Network:Web Status:Stable</Category>
-  <WebUI>http://[IP]:[PORT:8083]</WebUI>
+  <WebUI>http://[IP]:[PORT:8082]</WebUI>
   <Icon>https://raw.githubusercontent.com/qy9756/unraid/master/filebrowser.png</Icon>
   <ExtraParams>--mount type=tmpfs,destination=/tmp</ExtraParams>
   <PostArgs></PostArgs>
@@ -53,7 +53,7 @@
       <Mode/>
     </Variable>
     <Variable>
-      <Value>8083</Value>
+      <Value>8082</Value>
       <Name>WEB_PORT</Name>
       <Mode/>
     </Variable>
